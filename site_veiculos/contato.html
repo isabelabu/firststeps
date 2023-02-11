@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reise Veículos</title>
+	<link rel="icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta charset="utf-8">
+	<meta name="keywords" content="carros, motos, automobilística, veículos, automóvel" />
+	<meta name="description" content="site de revenda de carros e motos" />
+	<meta name="robots" content="index">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div>
+			<img id= "logo" src="img/logo.png">
+			<!-- Apenas uma explicação sobre o nome do site: Reise significa viagem em alemão, e nós associamos isso com veículos -->
+		</div>
+
+		<div id="menu">
+			 <ul>
+                    <li><a href="index.html" title="Página Inicial">Página Inicial</a></li>
+                    <li><a href="catalogo.html" title="Catálogo">Catálogo</a></li>
+                    <li><a href="calculo.html" title="Cálculo">Parcelas e Financiamento</a></li>
+                    <li><a href="contato.html" title="Contato">Fale Conosco</a></li>
+                    <li><a href="equipe.html" title="Equipe">Equipe</a></li>
+                </ul>
+		</div>
+        <h1 id="pag">Contato</h1>
+		<div id="conteudo">
+
+			<form id="form" name="form" method="post">
+				<p>Nome:</p>
+				<input type="text" name="txtnome" maxlength="60" required autocomplete="on">
+				<p>Email:</p>
+				<input type="text" name="txtemail" maxlength="60" required>
+				<p>Mensagem:</p>
+				<textarea id="msg" name="msg" rows="20" cols="20"></textarea>
+				<p> </p>
+				<!-- 
+					Coloquei esses parágrafos em branco porque o clear não funcionou nessa última parte e não consegui arrumar no css
+				-->
+				<input type="checkbox" name="check"> Quero receber notícias da Raise Veículos
+				<p> </p>
+				<input type="submit" value="Enviar" name="btenviar" id="btenviar">
+			
+			</form>
+
+			<div id="divmapa">
+				<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.8746251173493!2d-47.293315285027425!3d-23.284004884821368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf454d6ff6dc99%3A0xe60264a2338a6fed!2sKIA%20-%20Gandini%20Itu!5e0!3m2!1spt-BR!2sbr!4v1599775940898!5m2!1spt-BR!2sbr" width="500" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<p>Av. Francisco E. Favero</p>
+				<p>660 - Jardim do Estadio</p>
+			    <p>Itu - SP, 13309-290</p>
+				<!-- Kia Motors -->
+			</div>
+
+			
+
+		</div>
+
+		<div id="rodape">
+			<img class="icon" src="img/insta.png">
+			<p>@reiseveiculos</p>
+			<img class="icon" src="img/facebook.png">
+			<p>Reise Veículos</p>
+			<img class="icon" src="img/gmail.png">
+			<p>reiseveiculos@gmail.com</p>
+		</div>
+	</div>
+
+</body>
+</html>

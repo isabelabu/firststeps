@@ -1,0 +1,151 @@
+@font-face{
+	font-family: lexend;
+	src: url(../font/LexendPeta-Regular.ttf);
+}
+
+*{
+	font-family: lexend;
+	color: white;
+}
+body{
+	background-image: url('../img/background.png');
+	background-size: 100%;
+	background-attachment: none;
+	background-color: black;
+	background-repeat: no-repeat;
+}
+#logo{
+	width: 600px;
+	float: left;
+	clear: both;
+}
+#pag{
+	color: white;
+	font-size: 70px;
+	margin-right: 40px;
+	float: right;
+	clear: both;
+	text-shadow: 4px 4px 3px black;
+}
+#menu {
+    background: none;
+    float: left;
+    width: 50%;
+    margin-left: 70px;
+    clear: both;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#menu ul li a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    color: #005186;
+    text-decoration: none;
+    font-family: lexend;
+}
+#menu ul li a:hover{
+    color: white;
+}
+#conteudo{
+	clear: both;
+	padding: 20px;
+	text-align: center;
+}
+#conteudo p{
+	font-size: 20px;
+}
+#isa{
+	width: 300px;
+}
+#ruan{
+	width: 500px;
+}
+#equipe h5{
+	font-size: 30px;
+}
+#rodape{
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+#rodape p{
+	font-size: 20px;
+}
+img.icon{
+	width: 30px;
+}
+input{
+	color: black;
+	clear: both;
+}
+#btenviar{
+	clear: both;
+}
+#mapa{
+	float: left;
+	border: 2px solid white;
+}
+#divmapa{
+	margin: 70px;
+	padding: 70px;
+	border: 5px solid white;
+	border-style: outset;
+}
+#divmapa p{
+	text-align: right;
+}
+#form{
+	clear: both;
+	margin: 70px;
+	padding: 50px;
+	border: 5px solid white;
+	border-style: outset;
+}
+textarea{
+	color: black;
+}
+img.marcaimg{
+	width: 150px;
+}
+div.marcas h1{
+	font-size: 80px;
+}
+div.marcas{
+	margin: 40px;
+	clear: both;
+}
+div.carros img{
+	width: 350px;
+}
+div.carros{
+	background-color: white;
+	float: left;
+	padding: 20px;
+	margin: 20px;
+	display: inline-block;
+	clear: none;
+}
+div.carros h3{
+	color: black;
+	font-size: 50px;
+}
+div.carros h1{
+	color: black;
+}
+select{
+	color: black;
+}
+option{
+	color: black;
+}
+#res{
+	color: white;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reise Veículos</title>
+	<link rel="icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta charset="utf-8">
+	<meta name="keywords" content="carros, motos, automobilística, veículos, automóvel" />
+	<meta name="description" content="site de revenda de carros e motos" />
+	<meta name="robots" content="index">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div>
+			<img id= "logo" src="img/logo.png">
+			<!-- Apenas uma explicação sobre o nome do site: Reise significa viagem em alemão, e nós associamos isso com veículos -->
+		</div>
+
+		<div id="menu">
+			 <ul>
+                    <li><a href="index.html" title="Página Inicial">Página Inicial</a></li>
+                    <li><a href="catalogo.html" title="Catálogo">Catálogo</a></li>
+                    <li><a href="calculo.html" title="Cálculo">Parcelas e Financiamento</a></li>
+                    <li><a href="contato.html" title="Contato">Fale Conosco</a></li>
+                    <li><a href="equipe.html" title="Equipe">Equipe</a></li>
+                </ul>
+		</div>
+        <h1 id="pag">Parcelas e Financiamento</h1>
+		<div id="conteudo">
+
+			    <!--A parte de selecionar os veículos e atribuir os valores está funcionando bem, mas o HTML não está recebendo a variável mensagem, e eu não consegui consertar isso então deixei como está, com todos os cálculos no script-->
+			
+				<p>Qual o seu nome?</p>
+				<input type="text" name="txtnome" id= "txtnome" placeholder="Insira seu nome" maxlength="60" autocomplete="on">
+				<p>Qual o seu CPF?</p>
+				<input type="text" name="txtcpf" placeholder="Ex.: 00.000.000-0" maxlength="12" autocomplete="on">
+				<p>Qual o seu email?</p>
+				<input type="text" placeholder= "Insira seu email" name="txtemail" maxlength="60">
+				
+				<p>Qual veículo?</p>
+				<select name="selveiculo" id="selveiculo" required>
+                    <option value="" disabled selected>Escolha o veículo</option>
+                    <option value="mod1">Volkswagen Gol</option>
+                    <option value="mod2">Volkswagen Up</option>
+                    <option value="mod3">Volkswagen Amarok</option>
+                    <option value="mod4">Volkswagen New Beetle</option>
+                    <option value="mod5">Volkswagen Jetta</option>
+                    <option value="mod6">Volkswagen Polo</option>
+                    <option value="mod7">Fiat Uno</option>
+                    <option value="mod8">Fiat Toro</option>
+                    <option value="mod9">Fiat Mobi</option>
+                    <option value="mod10">Fiat Grand Siena</option>
+                    <option value="mod11">Fiat Strada</option>
+                    <option value="mod12">Fiat Argo</option>
+                    <option value="mod13">Chevrolet Joy</option>
+                    <option value="mod14">Chevrolet Prisma</option>
+                    <option value="mod15">Chevrolet Celta</option>
+                    <option value="mod16">Chevrolet Onix</option>
+                    <option value="mod17">Chevrolet Cruze</option>
+                    <option value="mod18">Chevrolet Camaro</option>
+                    <option value="mod19">Honda Civic</option>
+                    <option value="mod20">Honda WR-V</option>
+                    <option value="mod21">Honda Biz 110i</option>
+                    <option value="mod22">Honda CG 160</option>
+                    <option value="mod23">Honda CB Twister</option>
+                    <option value="mod24">Honda XRE 190</option>
+                </select>
+                <p>Qual versão?</p>
+                <div required id="versaoveiculo">
+				<input type="radio" id="b" name="versaoveiculo" value="0"> Básico
+				<input type="radio" id="c" name="versaoveiculo" value="2000"> Completo
+			    </div>
+				<p>Valor de entrada (sem pontos e vírgulas):</p>
+				<input type="text" id="entrada" name="entrada" maxlength="60" required>
+				<p>Em quantos meses quer pagar?</p>
+				<input type="text" id="meses" name="meses" maxlength="2" required>
+				<p> </p>
+				<input type="submit" value="Calcular" name="btcalcular" id="btcalcular" onclick="Calcular()">
+
+				<p id="res"></p>
+		
+			
+
+		</div>
+
+		<div id="rodape">
+			<img class="icon" src="img/insta.png">
+			<p>@reiseveiculos</p>
+			<img class="icon" src="img/facebook.png">
+			<p>Reise Veículos</p>
+			<img class="icon" src="img/gmail.png">
+			<p>reiseveiculos@gmail.com</p>
+		</div>
+	</div>
+
+</body>
+</html>
