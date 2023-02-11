@@ -1,0 +1,56 @@
+body{
+	background-color: #339169;
+	font: 14pt verdana;
+	text-align: center;
+	background-image: url('../img/background.png');
+	background-position: left;
+	background-size: cover;
+	/*
+	no-repeat
+	repeat-x
+	repeat-y
+	*/
+	background-repeat: no-repeat;
+	/*
+    background-size
+    Cover - preencher
+    Content - diminuir
+	*/
+	background-attachment: fixed;
+}
+
+h1{
+
+	position: relative;
+}
+
+img{
+
+	width: 400px;
+	image-rendering: all; 
+}
+
+h1{
+color: white;
+}
+h3{
+	color: #38AC9E;
+	text-shadow: 2px 1px black;
+
+
+}
+
+p{
+
+color: white;
+text-shadow: 2px 1px black;
+
+}
+
+div{
+	width: 400px;
+	border: 2px solid black;
+	margin:10px;
+	padding: 10px;
+	float: left;
+}
