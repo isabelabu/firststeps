@@ -1,6 +1,4 @@
 # schoolexercises
-There are here some of my HTML/CSS projects. All of them are simple, fictional and for educational purposes, since I made them when I was learning to code.
-
 Their content is in brazilian portuguese.
 
 The project called "Site_BNHA" is my first HTML/CSS site and it was made in 2020. It shows some information about the anime "Boku no Hero Academia" and that's its only utility. 
