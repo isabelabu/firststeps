@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<!--
+	Trabalho em dupla por:
+	Isabela Bueno Silva
+	Ruan Sammuel Carvalho
+
+Obs: As divs do cardápio podem estar bagunçadas por causa do float (dependendo do formato do computador), tentei arrumar isso, mas não consegui 
+-->
+<head>
+	<title>Restaurante Piepyrus</title>
+	<link rel="icon" href="img/head.png">
+	<meta charset="utf-8">
+	<meta name="keywords" content="restaurante, delivery, undertale, papyrus" />
+	<meta name="description" content="restaurate delivery com tema do papyrus" />
+	<meta name="robots" content="index">
+	<link href="css/estilo.css" rel="stylesheet" type="text/css"/>  
+</head>
+<body>
+	<div id="container">
+		<div id="topo">
+			<div id="menu">
+			 <ul>
+                    <li><a href="index.html" title="Página Inicial">Pagina Inicial</a></li>
+                    <li><a href="cardapio.html" title="Cardápio">Cardapio</a></li>
+                    <li><a href="pedido.html" title="Pedido">Pedido</a></li>
+                    <li><a href="equipe.html" title="Equipe">Equipe</a></li>
+                </ul>
+		    </div>
+		</div>
+		
+		
+		<div id="conteudo">
+			<form id="form" name="form" action="" method="post">
+				<h3>Formulário de Pedido</h3>
+				<div class="form" >
+		            <h5>Nome:</h5>
+		            <input type="text" id="txtnome" name="txtnome" maxlength="70" required />
+                    <h5>Telefone:</h5>
+                    <input type="tel" name="txttel">
+                    <h5>E-mail</h5>
+                    <input type="email" id="txtemail" name="txtemail" maxlength="50" />
+                    <h5>Endereço:</h5>
+                    <input type="tel" name="txttel">
+                </div>
+                <div class="form">
+                    <h5>Retirada</h5>
+                    <input type="radio" name="entrega" /> Entrega
+                    <input type="radio" name="pessoalmente" /> Retirar na loja
+                </div>
+                <div class="form">
+                    <h5>Pagamento</h5>
+                    <input type="radio" name="dinheiro" /> Dinheiro
+                    <input type="radio" name="cartao" /> Cartão
+                </div>
+
+                <h3>Selecione o seu pedido</h3>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb1"> Glambúrguer
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb2"> Donut Aranha
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb3"> Coelho de Canela
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb4"> Rosquinhas de Abóbora
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb5"> Torta de Caramelo e Canela
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb6"> Chá do Mar
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb7"> Doce Boneco de Neve
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb8"> MilkShake de Estrela
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb9"> Spaghetti com Queijo
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb10"> Spaghetti Carbonara
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb11"> Strogonoff de Frango
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb12"> Bife à Parmegiana
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb13"> Capeletti de Frango
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb14"> Capeletti de Carne
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb15"> Lasanha Tradicional
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb16"> Nhoque de Batata
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb17"> Sopa de Legumes
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb18"> Pizza de Calabresa
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb19"> Pizza de 3 Queijos
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb20"> Pizza de Frango
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb21"> Suco de Laranja
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb22"> Suco de Limão
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb23"> Refrigerante
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <div class="pedidoform">
+                	<input type="checkbox" name="cb24"> Água Mineral
+                	<h5>
+                		Quantidade:
+                	</h5>
+                    <input type="number" name="n1" class="qtd">
+                </div>
+                <input type="submit" name="enviar">
+			</form>
+		    
+		</div>
+		<div id="rodape">
+		<p>O personagem Papyrus pertence totalmente ao jogo Undertale e seu criador, Toby Fox.</p>
+		<p>© Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Ribeye+Marrow&display=swap');
+/*Trabalho em dupla por:
+Isabela Bueno Silva
+Ruan Sammuel Carvalho
+
+Algumas palavras estão sem acento por causa das fontes
+
+A logo do site está no próprio background
+*/
+@font-face{
+	font-family: milko;
+	src: url(../font/milkodenilo.ttf);
+}
+@font-face{
+    font-family: garden;
+    src: url(../font/aAlleyGarden.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-attachment: all;
+    font-family: 'Mate SC', serif;
+    background-color: #FFFCAA;
+}
+#menu {
+   
+    float: center;
+    width: 45%;
+   margin-left: 90px;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+ 
+    list-style:none;
+}
+
+#menu ul li a {
+    padding: 0px 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    display: block;
+    width: 50%;
+    text-align: left;
+
+    /* visual do link */
+    background-color:#FFFCAA;
+    color: #FF8D66;
+    text-decoration: none;
+    border-bottom:3px solid #FFFCAA;
+    font-family: milko;
+    font-size: 50px;
+}
+
+#menu ul li a:hover{
+    background-color:#FF8D66;
+    color: white;
+}
+#topo{
+	margin-top: 350px;
+    margin-left: 60px;
+}
+h3.subtitulo{
+	color:#FF4E26;
+	font-family: milko;
+	font-size: 70px;
+	text-shadow: 2px 2px white;
+    text-align: center;
+}
+#conteudo{
+	margin: 40px;
+	text-align: center;
+	padding: 10px;
+	float: center;
+}
+#frase{
+    margin: 40px;
+    background-color: white;
+}
+#formulario{
+    margin: 40px;
+    background-color: white;
+    padding: 40px;
+}
+#contato{
+    background-color: white;
+}
+#conteudo p{
+	color: #FF6332;
+	font-size: 45px;
+	font-family: garden;
+}
+div.titulos{
+    clear: both;
+    float: center;
+    background-color: white;
+}
+div.produto{
+    float: left;
+    margin: 20px;
+    background-color: white;
+    padding: 37px;
+    clear: none;
+}
+div.produto p{
+    font-family: garden;
+    padding-top: 10px;
+    font-size: 70px;
+}
+img.comida{
+    width: 185px;
+}
+#icones{
+    width: 50px;
+}
+form{
+    background-color: white;
+    padding: 70px;
+    font-family: monospace;
+    font-size: 20px;
+}
+div.form{
+    margin: 30px;
+}
+div.pedidoform{
+    margin: 20px;
+}
+#equipe{
+    background-color: white;
+    padding: 50px;
+}
+#equipe p{
+    font-family: monospace;
+    color: black;
+    font-size: 30px;
+}
+#equipe h5{
+    font-size: 50px;
+}
+#isa{
+    width: 200px;
+}
+#ruan{
+    width: 400px;
+}
+#rodape{
+    margin: 40px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    float: center;
+}
+#rodape p{
+    color: #FF6332;
+}
