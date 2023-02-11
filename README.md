@@ -1,4 +1,4 @@
-# schoolexercises
+# My First Steps in Programming
 Their content is in brazilian portuguese.
 
 The project called "Site_BNHA" is my first HTML/CSS site and it was made in 2020. It shows some information about the anime "Boku no Hero Academia" and that's its only utility. 
